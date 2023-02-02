@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/wall02"
+    android:layout_height="match_parent"
+    tools:context=".vat">
+
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="808dp"
+        android:orientation="horizontal"
+        android:translationX="10dp"
+        android:translationY="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="800dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="เจดีย์กาญจนาภิเษก เขาค้อ"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:translationY="15dp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/vat03" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      พระบรมธาตุเจดีย์กาญจนาภิเษก  เป็นสถานที่ศักดิ์สิทธิ์คู่เมืองของเขาค้อ ลักษณะเป็นเจดีย์สีขาว สถาปัตยกรรมผสมผสานทั้งแบบสุโขทัย อยุธยา และรัตนโกสินทร์ บริเวณยอดเจดีย์บรรจุพระบรมสารีริกธาตุ พระอัฐธาตุของพระพุทธเจ้า ที่อัญเชิญมาจากประเทศศรีลังกา โดยพระบาทสมเด็จ พระเจ้าอยู่หัวรัชกาลที่ 9 ทรงพระราชทานให้กับประชาชนในพื้นที่เขาค้อ เพื่อเป็นสิริมงคล หลังจากยุติการสู้รบกับคอมมิวนิสต์ใน ประเทศไทย"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:translationY="-13dp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="283dp"
+                    android:translationY="-20dp"
+                    app:srcCompat="@drawable/vat04" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      เดิมนั้น พระบาทสมเด็จพระเจ้าอยู่หัวรัชกาลที่ 9 ได้ทรงพระกรุณาโปรดเกล้าโปรดกระหม่อม ให้อัญเชิญพระบรมสารีริกธาตุของพระพุทธเจ้ามาประดิษฐานไว้ กับสำนักสงฆ์วิชมัยปุญญาราม อำเภอเขาค้อ เนื่องจากในอดีตเคยเป็นพื้นที่ ที่มีการสู้รบ ระหว่างคนไทยด้วยกันเองมาอย่างยาวนาน จนทำให้เกิดการสูญเสียชีวิต และเลือดเนื้อจำนวนมาก ยังความเศร้าโศกเสียใจให้กับคนไทยทั้งชาติ"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:translationY="-25dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      การมีพระบรมธาตุในพื้นที่จะเป็นสิริมงคล ก่อให้เกิดความสงบสุขร่มเย็น ประกอบกับแผนการพัฒนาเขาค้อ ได้ทำให้ราษฎรในพื้นที่ได้รับการส่งเสริมให้มีที่ทำกินเป็นของตนเอง มีการพัฒนาอาชีพทางการเกษตร ทำให้มีชีวิตความเป็นอยู่ที่ดีขึ้นเป็นลำดับ มีรายได้เพียงพอต่อการครองชีพ และที่สำคัญราษฎรมีความรัก และหวงแหนในแผ่นดิน ที่แลกมาด้วยชีวิตเลือดเนื้อ และหยาดน้ำตาของทหารหาญและพี่น้องคนไทยจำนวนมาก"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:translationY="-15dp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="262dp"
+                    app:srcCompat="@drawable/vat05" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ต่อมาในปี พ.ศ. 2534 สมเด็จพระเทพรัตนราชสุดา ฯ สยามบรมราชกุมารี ได้เสด็จพระราชดำเนินไปทรงปลูกป่าบริเวณอ่างเก็บน้ำห้วยลึก หลังสำนักสงฆ์วิชมัยปุญญาราม อำเภอเขาค้อ จังหวัดเพชรบูรณ์  เจ้าอาวาสสำนักสงฆ์วิชมัยปุญญาราม ได้กราบบังคมทูลว่ามีเศรษฐีนีท่านหนึ่ง มีความประสงค์จะขอสร้างพระสถูปเจดีย์ เพื่อบรรจุพระบรมสารีริกธาตุ ที่พระบาทสมเด็จพระเจ้าอยู่หัวพระราชทานมา สมเด็จพระเทพรัตนราชสุดา ฯ สยามบรมราชกุมารี มีพระราชกระแสกับ พลเอก พิจิตร กุลละวณิชย์ ว่าควรจะให้คนไทยทุกหมู่เหล่าได้มีส่วนร่วมในการก่อสร้างพระบรมธาตุเจดีย์ เพื่อบรรจุพระบรมสารีริกธาตุดังกล่าวน่าจะเหมาะสมกว่า"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      พลเอก พิจิตร กุลละวณิชย์ และข้าราชการ ประชาชนทุกหมู่เหล่า จึงร่วมใจกันสร้างองค์เจดีย์กาญจนาภิเษกขึ้นมา และอัญเชิญพระบรมธาตุมาประดิษฐานไว้ เป็นสิ่งศักดิ์สิทธิ์คู่เมืองเขาค้อตั้งแต่บัดนั้นเป็นต้นมา"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/FB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/map02"
+                    android:onClick="onClick"
+                    android:text="map"
+                    android:translationX="150dp"
+                    android:translationY="-5dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

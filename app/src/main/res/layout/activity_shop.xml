@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shop">
+
+    <LinearLayout
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationX="10dp"
+        android:translationY="750dp">
+
+        <Button
+            android:id="@+id/tra01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableBottom="@drawable/map_01"
+            android:onClick="ShopNext"
+            android:text="" />
+
+        <Button
+            android:id="@+id/shop01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableBottom="@drawable/shop01"
+            android:text="" />
+
+        <Button
+            android:id="@+id/seto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="ShopSet"
+            android:background="@color/white"
+            android:drawableBottom="@drawable/setting_01"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="831dp"
+        android:orientation="horizontal"
+        android:translationX="-385dp"
+        android:translationY="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="740dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="398dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="มะขามแช่อิ่มแห้ง"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:translationX="10dp"
+                        android:translationY="10dp" />
+
+                    <ImageView
+                        android:id="@+id/t2"
+                        android:layout_width="384dp"
+                        android:layout_height="310dp"
+                        android:translationX="-150dp"
+                        android:translationY="40dp"
+                        app:srcCompat="@drawable/aim1" />
+
+                    <LinearLayout
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:translationX="-420dp"
+                        android:translationY="350dp">
+
+                        <Button
+                            android:id="@+id/SAim"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Shopee" />
+
+                        <Button
+                            android:id="@+id/LAim"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Lazada" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="421dp"
+                    android:orientation="horizontal"
+                    android:translationY="20dp">
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ขิงผง"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:translationX="10dp"
+                        android:translationY="10dp" />
+
+                    <ImageView
+                        android:id="@+id/d1"
+                        android:layout_width="384dp"
+                        android:layout_height="310dp"
+                        android:translationX="-50dp"
+                        android:translationY="40dp"
+                        app:srcCompat="@drawable/kinr1" />
+
+                    <LinearLayout
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:translationX="-320dp"
+                        android:translationY="350dp">
+
+                        <Button
+                            android:id="@+id/SKing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Shopee" />
+
+                        <Button
+                            android:id="@+id/LKing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Lazada" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="431dp"
+                    android:orientation="horizontal"
+                    android:translationY="30dp">
+
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="กล้วยหินอบกรอบสอดไส้มะขามกวน"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:translationX="10dp"
+                        android:translationY="10dp" />
+
+                    <ImageView
+                        android:id="@+id/d2"
+                        android:layout_width="384dp"
+                        android:layout_height="310dp"
+                        android:translationX="-290dp"
+                        android:translationY="40dp"
+                        app:srcCompat="@drawable/kunbanana01" />
+
+                    <LinearLayout
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:translationX="-570dp"
+                        android:translationY="350dp">
+
+                        <Button
+                            android:id="@+id/SBana"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Shopee" />
+
+                        <Button
+                            android:id="@+id/LBana"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Lazada" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="441dp"
+                    android:orientation="horizontal"
+                    android:translationY="20dp">
+
+                    <TextView
+                        android:id="@+id/t5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="แมคคาเดเมียอบธรรมชาติ"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:translationX="10dp"
+                        android:translationY="10dp" />
+
+                    <ImageView
+                        android:id="@+id/d3"
+                        android:layout_width="384dp"
+                        android:layout_height="310dp"
+                        android:translationX="-220dp"
+                        android:translationY="40dp"
+                        app:srcCompat="@drawable/mac1" />
+
+                    <LinearLayout
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:translationX="-500dp"
+                        android:translationY="350dp">
+
+                        <Button
+                            android:id="@+id/SMac"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Shopee" />
+
+                        <Button
+                            android:id="@+id/LMac"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Lazada" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="มะขามหวาน"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:translationX="10dp"
+                        android:translationY="10dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView33"
+                        android:layout_width="384dp"
+                        android:layout_height="310dp"
+                        android:translationX="-100dp"
+                        android:translationY="40dp"
+                        app:srcCompat="@drawable/kram1" />
+
+                    <LinearLayout
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:translationX="-380dp"
+                        android:translationY="350dp">
+
+                        <Button
+                            android:id="@+id/Skk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Shopee" />
+
+                        <Button
+                            android:id="@+id/Lkk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Lazada" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/oo" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

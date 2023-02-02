@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="390dp"
+    android:background="@drawable/wall02"
+    android:layout_height="match_parent"
+    tools:context=".tok">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="843dp"
+        android:orientation="horizontal"
+        android:translationX="10dp"
+        android:translationY="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="792dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="374dp"
+                    android:layout_height="wrap_content"
+                    android:text="      น้ำตกศรีดิษฐ์ ที่เที่ยวเพชรบูรณ์มหัศจรรย์น้ำตกสุดสวย แห่งเขาค้อ"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:translationY="10dp" />
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="234dp"
+                    app:srcCompat="@drawable/tok02" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ถ้าพูดถึง เพชรบูรณ์ ก็ต้องนึกถึงเขาค้อ และถ้าอยากไปเที่ยวน้ำตกสวยๆ แบบฟินๆ ที่เขาค้อ ก็ต้องถึงนึก น้ำตกศรีดิษฐ์ สถานที่ที่เราจะพาไปในวันนี้เลยค่ะ จัดว่าเป็นน้ำตกหินที่สวยมากๆ ของเขาค้อ ที่สำคัญยังเป็นสถานที่ประวัติศาสตร์อีกด้วยค่ะ จะสวยงามแค่ไหน และจะมีประวัติศาสตร์อะไรนั้น มาดูกันเลย"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="224dp"
+                    app:srcCompat="@drawable/toko3" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      น้ำตกศรีดิษฐ์ ตั้งอยู่ที่ บ้านร่มโพธิ์ร่มไทร ตำบลหนองแม่นา อำเภอเขาค้อ จังหวัดเพชรบูรณ์ เป็นน้ำตกหินชั้นขนาดใหญ่ ที่มีเพียงแค่ชั้นเดียว สูง 30 เมตร กว้าง 50 เมตร แต่กลับมีน้ำตกตลอดทั้งปีค่ะ เป็นแหล่งต้นน้ำที่สำคัญของลำน้ำเข็กเลยค่ะ ซึ่งเมื่อก่อนนั้น คอมมิวนิสต์เคยใช้เป็นที่อยู่อาศัย เรียกได้ว่าเป็นชุมชนขนาดย่อมๆ นี่เองค่ะ เพราะมีการพบเจอหลักฐานและสิ่งของเครื่องใช้ต่างๆ ในบริเวณน้ำตก ไม่ว่าจะเป็น บ้านพัก ครกตำข้าว เป็นต้น"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="263dp"
+                    app:srcCompat="@drawable/tok05" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      น้ำตกนี้ จะเป็นลักษณะของน้ำที่ไหลผ่านจากหน้าผาตัด ลัดเลาะผ่านลงตามซอกหินชั้นต่างๆ และตกลงมาคล้ายม่านน้ำตกหลายม่านอย่างสวยงามเลยค่ะ บริเวณด้านล่างของน้ำตก จะมีแอ่งขนาดใหญ่ ที่สามารถลงเล่นน้ำได้ แต่ในช่วงหน้าฝนต้องใช้ความระมัดระวังนะคะ เพราะน้ำจะไหลเชี่ยว อาจจะทำให้เกิดอันตรายได้"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/tok06" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      เป็นสถานที่ท่องเที่ยวธรรมชาติสวยงาม ที่สามารถสัมผัสได้ถึงบรรยากาศของป่าไม้ ภูเขา และสายน้ำสุดๆ ไปเลยค่ะ และที่สำคัญยังจัดว่าเป็นอีกสถานที่ท่องเที่ยวเชิงประวัติศาสตร์อีกด้วยค่ะ นอกจากนี้รอบๆ น้ำตกศรีดิษฐ์ ก็จะมีร้านค้าขายของจากชาวบ้านให้บริการอีกด้วยค่ะ ทั้ง อาหารและของฝากของที่ระลึกต่างๆ"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/tok07" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ใครที่สนใจเดินทางมาที่ น้ำตกศรีดิษฐ์ นั้น สามารถใช้เส้นทางเดียวกับทางไปทุ่งแสลงหลวงได้เลยค่ะ ถ้ามาจากเขาค้อ ถนนสาย 2196 ก็สามารถเลี้ยวเข้า ถนนสาย 2325 จะสังเกตได้จากป้ายบอกทางไปน้ำตกได้ค่ะ เพราะจะมีป้ายบอกทางเป็นระยะๆ เดินทางไม่ยากเลย"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/FB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/map02"
+                    android:onClick="onClick"
+                    android:text="map"
+                    android:translationX="150dp"
+                    android:translationY="-5dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

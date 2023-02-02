@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wall02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kak">
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="808dp"
+        android:orientation="horizontal"
+        android:translationX="10dp"
+        android:translationY="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="800dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ทุ่งกังหันลม"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      อีกหนึ่งแลนด์มาร์คแห่งเขาค้อที่สวยงาม ตั้งอยู่ในพื้นที่หมู่บ้านเพชรดำ จังหวัดเพชรบูรณ์   เมื่อเข้ามาในบริเวณแคมป์สนเพื่อไปยังเส้นทางท่องเที่ยวหลักบนเขาค้อ จะสามารถมองเห็นกำหันลมโดดเด่นได้อย่างง่ายได้  เนื่องจากจุดที่ตั้งของโครงการทุ่งกังหันลม อยู่บนเนินเขาสูง บนระดับความสูงกว่าน้ำทะเลประมาณ 1,050 เมตร ตระหง่านบนที่ราบยอดเขาเนื้อที่ 350 ไร่  จึงสามารถมองเห็นวิวทิวทัศน์ได้กว้างไกล"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="268dp"
+                    app:srcCompat="@drawable/kak02" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      การเดินทางมายังทุ่งกังหันลมใช้ทางเดียวกับหมู่บ้านเพชรดำ จากถนนสายหลัก 2196 หากมาจากแคมป์สนเลยแยกทุ่งสมอไป 3 กม. จะมีป้ายหมู่บ้านเพชรดำและป้ายบอกทางไปทุ่งกังหันลม  ให้เลี้ยวขวาเข้าไปประมาณ 10 กม.ก็จะถึงทุ่งกังหันลม  หรืออาจจะใช้การนำทางจาก  google maps  ก็สะดวกมากนำทางไปถึงเช่นกัน  ถนนลาดยางตลอดเส้นทาง ค่อนข้างสะดวก  แต่อาจมีความโค้งชันในบางช่วงแต่ไม่มากนัก   ก่อนถึงทุ่งกังหันลมจะได้พบเจอกับวิวระหว่างทางที่สวยงามมอง มองเห็นทุ่งกันหันลมอยู่ไม่ไกล"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="268dp"
+                    app:srcCompat="@drawable/kak03" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="277dp"
+                    app:srcCompat="@drawable/kak04" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      เมื่อมาถึงให้จอดรถไว้ที่มีลานจอดรถด้านหน้า  เพราะไม่อนุญาตให้นำรถเข้าไป โดยเสียค่าจอดรถคันละ 20 บาท จากนั้นเดินไปตรงบริเวณทางเข้าทุ่งกังหันลมเพื่อขึ้นรถราง คนละ 60 บาท ด้านในทุ่งกังหันลม นักท่องเที่ยวไม่สามารถนำรถขึ้นไปเองได้ จุดแรกจะจอดที่ ลานเทเลทับบี้ เขาค้อ หากต้องการเข้าชมต้องเสียค่าเข้าเพิ่มอีก 60 บาท"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="253dp"
+                    app:srcCompat="@drawable/kak05" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      บริเวณทางเข้าบริเวณจุดจำหน่ายตั๋ว เป็นที่ตั้งของ ไร่สตรอว์เบอร์รี่ GB"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="254dp"
+                    app:srcCompat="@drawable/kak06" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="291dp"
+                    app:srcCompat="@drawable/kak07" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="285dp"
+                    android:translationY="10dp"
+                    app:srcCompat="@drawable/kak08" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ถัดลงไปจากช้างดอยโก๊ะ สตรอว์เบอร์รี่  คือ ระบียงกันหันลม ซึ่งสามารถชมวิวของกันหันลมได้อีกมุมหนึ่ง เป็นจุดชมวิวที่สวยงามมองเห็นทิวน้อยใหญ่เขาเรียงรายสลับซับซ้อนอยู่เบื้องหน้า"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="272dp"
+                    app:srcCompat="@drawable/kak09" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="299dp"
+                    app:srcCompat="@drawable/kak10" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="312dp"
+                    android:translationY="10dp"
+                    app:srcCompat="@drawable/kak11" />
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+                    android:translationY="10dp"
+                    app:srcCompat="@drawable/kak12" />
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="308dp"
+                    android:translationY="10dp"
+                    app:srcCompat="@drawable/kak13" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ได้เวลานั่งรถรางเที่ยวกันแล้ว  วิวระหว่างทางภายในทุ่งกันหันลม มาเที่ยวในช่วงฤดูหนาว ฟ้าใสสวย ดอกหญ้าเริ่มกลายเป็นสีทอง"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="299dp"
+                    app:srcCompat="@drawable/kak14" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      เส้นทางเดินรถภายในทุ่งกันหันลม เป็นเส้นทางดิน ฝุ่นเยอะพอสมควร พกผ้าปิดจมูกกันฝุ่นมาด้วยก็จะดี  ขอพี่คนขับจอดรถบริเวณนี้ซักครู่ เพื่อถ่ายภาพ ต้นกำหันลมสูงและใหญ่มาก  เมื่อพลังงานเต็มใบกังหันลมก็จะหยุดหมุน แต่ถ้าเมื่อไหร่ที่ต้องการให้ผลิตไฟฟ้าเมื่อไหร่ก็จะหมุนต่อ"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="275dp"
+                    app:srcCompat="@drawable/kak16" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      นั่งรถรางมาจนถึงจุดแวะจุดแรก ซึ่งตั้งอยู่บนจุดที่สูงที่สุด มีป้ายทุ่งกันหันลม และเห็นวิวภูเขาและกังหันลมอยู่เบื้องหน้า ทุ่งกันหันลม  เป็นโครงการผลิตไฟฟ้าโดยใช้พลังงานลมจากกังหันลมขนาดใหญ่จำนวน 24 ต้น บนเนื้อที่ประมาณ 350 ไร่ มีกำลังการผลิตไฟฟ้า 60 เมกกะวัตต์ ดำเนินงานโดย บริษัท เด็มโก้  สามารถมองเห็นได้จากระยะไกลในทุกทิศทางเมื่ออยู่ในเขาค้อ  กังหันลมมีความสูง 110 เมตร เส้นผ่านศูนย์กลางของวงพัดยาว 120 เมตร เป็นใบพัดกังหันลมที่มีขนาดยาวที่สุดในประเทศไทย ก่อสร้างด้วยเทคโนโลยีการผลิตไฟฟ้าสะอาด สามารถผลิตพลังงานไฟฟ้าเฉลี่ยต่อปีราว 140 ล้านหน่วย"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="256dp"
+                    app:srcCompat="@drawable/kak17" />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="289dp"
+                    app:srcCompat="@drawable/kak_end1" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="รายละเอียดเพิ่มเติม" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ทุ่งกังหันลม  เปิดให้เข้าชมทุกวันตั้งแต่เวลา 6.00 น. – 18.00 น.  โดยมีรถรางนำชมวิว คิดค่าบริการคนละ 60 บาท โดยสามารถวนนั่งรถต่อได้ โดยไม่จำเป็นต้องใช้รถบริการคันเดิม"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/FB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/map02"
+                    android:onClick="onClick"
+                    android:text="map"
+                    android:translationX="150dp"
+                    android:translationY="-5dp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
